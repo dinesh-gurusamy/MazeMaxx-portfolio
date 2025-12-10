@@ -46,12 +46,15 @@
     </p>
 
     <div class="flex flex-col sm:flex-row gap-5 justify-center animate-in fade-in slide-in-from-bottom delay-500 duration-1000">
-      <Button size="lg" class="text-lg px-8 font-semibold group/btn relative overflow-hidden bg-primary hover:bg-primary/90 text-white">
-        <span class="relative z-10 flex items-center">
-          View All Programs <ArrowRight class="ml-2 h-5 w-5 group-hover/btn:translate-x-1 transition" />
-        </span>
-        <div class="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-500"></div>
-      </Button>
+      <Button 
+      size="lg" 
+      class="text-lg font-bold group/btn relative overflow-hidden bg-primary hover:bg-primary/90"
+    >
+      <span class="relative z-10 flex items-center">
+        Choose Your Track <ArrowRight class="ml-3 h-6 w-6 group-hover/btn:translate-x-2 transition" />
+      </span>
+      <div class="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-500"></div>
+    </Button>
       <Button size="lg" variant="outline" class="text-lg">WhatsApp Us</Button>
     </div>
   </div>

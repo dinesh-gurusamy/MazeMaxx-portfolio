@@ -81,10 +81,20 @@
 				</Button>
 
 				<Button
-					class="hidden sm:flex items-center gap-2 bg-primary hover:bg-primary/90 text-white font-semibold shadow-lg"
+					size="lg"
+					class="text-md font-bold group/btn relative overflow-hidden bg-primary hover:bg-primary/90"
 				>
-					<Sparkles class="h-4 w-4" />
-					Enroll Now
+					<span class="relative z-10 flex items-center">
+						Enroll Now
+						<Sparkles
+							class="ml-3 h-6 w-6 transition-all duration-300 ease-out
+             group-hover/btn:scale-125 group-hover/btn:rotate-12"
+						/>
+					</span>
+
+					<div
+						class="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-500"
+					></div>
 				</Button>
 
 				<!-- Mobile Menu -->
@@ -119,7 +129,7 @@
 
 	<!-- Main Content -->
 	<main>
-	     {@render children()}
+		{@render children()}
 		<!-- Use default slot instead of {@render children()} -->
 	</main>
 
