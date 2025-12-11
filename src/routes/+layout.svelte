@@ -128,7 +128,7 @@
 	</header>
 
 	<!-- Main Content -->
-	<main>
+	<main class="text-center w-full flex flex-col items-center justify-center">
 		{@render children()}
 		<!-- Use default slot instead of {@render children()} -->
 	</main>
